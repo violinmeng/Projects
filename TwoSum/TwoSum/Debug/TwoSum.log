@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  TwoSum.cpp
+c:\users\anonymity\documents\visual studio 2015\projects\twosum\twosum\twosum.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\anonymity\documents\visual studio 2015\projects\twosum\twosum\twosum.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+  TwoSum.vcxproj -> c:\users\anonymity\documents\visual studio 2015\Projects\TwoSum\Debug\TwoSum.exe
