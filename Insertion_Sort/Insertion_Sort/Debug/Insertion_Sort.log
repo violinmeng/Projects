@@ -1,0 +1,4 @@
+﻿  Insertion_Sort.cpp
+c:\users\anonymity\documents\visual studio 2015\projects\insertion_sort\insertion_sort\insertion_sort.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\anonymity\documents\visual studio 2015\projects\insertion_sort\insertion_sort\insertion_sort.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+  Insertion_Sort.vcxproj -> C:\Users\Anonymity\documents\visual studio 2015\Projects\Insertion_Sort\Debug\Insertion_Sort.exe

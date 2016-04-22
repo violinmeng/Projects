@@ -45,11 +45,9 @@ vector<int> getRandomMerged(vector<int> &v) {
 
 int main()
 {
+	//²âÊÔº¯Êý
 	vector<int> v = { 1,34,46,2,4,25,2,4,1 };
 	vector<int> v3 = getRandomMerged(v);
-	vector<int> v1 = { 1 };
-	vector<int> v2;
-	vector<int> v4 = mergeSort(v1, v2);
 	for (auto v : v3)
 		cout << v << " ";
 	cout << endl;

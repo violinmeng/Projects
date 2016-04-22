@@ -1,0 +1,6 @@
+﻿  mergeSort1.cpp
+c:\users\anonymity\documents\visual studio 2015\projects\mergesort1\mergesort1\mergesort1.cpp(11): warning C4005: “INT_MAX”: 宏重定义
+  d:\program files\microsoft visual studio 14.0\vc\include\limits.h(35): note: 参见“INT_MAX”的前一个定义
+c:\users\anonymity\documents\visual studio 2015\projects\mergesort1\mergesort1\mergesort1.cpp(12): warning C4005: “INT_MIN”: 宏重定义
+  d:\program files\microsoft visual studio 14.0\vc\include\limits.h(34): note: 参见“INT_MIN”的前一个定义
+  mergeSort1.vcxproj -> C:\Users\Anonymity\documents\visual studio 2015\Projects\mergeSort1\Debug\mergeSort1.exe

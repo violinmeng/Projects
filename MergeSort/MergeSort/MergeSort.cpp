@@ -54,25 +54,6 @@ void error_msg(initializer_list<string> il) {
 	cout << endl;
 }
 
-vector<int> mergeSort(vector<int> v1, vector<int> v2) {
-
-	v1.push_back(INT_MAX);
-	v2.push_back(INT_MAX);
-	auto pv1 = v1.begin();
-	auto pv2 = v2.begin();
-	vector<int> reVec;
-	while ((pv1 != v1.end()-1) && (pv2 != v2.end()-1)) {
-		if (*pv1 < *pv2) {
-			reVec.push_back(*pv1);
-			++pv1;
-		}
-		else {
-			reVec.push_back(*pv2);
-			++pv2;
-		}
-	}
-	return reVec;
-}
 
 //typedef string strArry[10];
 
@@ -97,18 +78,12 @@ int main()
 	//int *p1[10];
 	//int(*p)[10];
 
-	/*int ia[10];
+	int ia[10];
 	for (int i = 0; i != 10; ++i) {
 		get(ia, i) = i;
 	}
 	for (auto a = begin(ia); a != end(ia); ++a)
-		cout << *a << endl;*/
-	vector<int> v1 = { 1,4,7,9,14 };
-	vector<int> v2 = { 2,3,6,10,17 };
-	vector<int> v3 = mergeSort(v1, v2);
-	for (auto v : v3)
-		cout << v << " ";
-	cout << endl;
+		cout << *a << endl;
 	return 0;
 }
 
