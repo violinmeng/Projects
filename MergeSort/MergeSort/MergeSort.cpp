@@ -68,22 +68,22 @@ inline const string &shorterString(const string &s1, const string &s2) {
 
 int main()
 {
-//	int i = 0, j = 1;
-//	cout << "i=" << i << ";" << "j=" << j << endl;
-//	swapint(&i, &j);
-//	swapint1(i, j);
-//	cout << "after swap i=" << i << ";" << "j=" << j << endl;
+	int i = 0, j = 1;
+	cout << "i=" << i << ";" << "j=" << j << endl;
+	swapint(&i, &j);
+	swapint1(i, j);
+	cout << "after swap i=" << i << ";" << "j=" << j << endl;
 	//bool is = hasUppercase("this is Test");
 	//cout << is << endl;
 	//int *p1[10];
 	//int(*p)[10];
 
-	int ia[10];
-	for (int i = 0; i != 10; ++i) {
-		get(ia, i) = i;
-	}
-	for (auto a = begin(ia); a != end(ia); ++a)
-		cout << *a << endl;
+	//int ia[10];
+	//for (int i = 0; i != 10; ++i) {
+	//	get(ia, i) = i;
+	//}
+	//for (auto a = begin(ia); a != end(ia); ++a)
+	//	cout << *a << endl;
 	return 0;
 }
 

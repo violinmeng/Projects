@@ -1,2 +1,6 @@
 ﻿  MergeSort.cpp
-c:\users\anonymity\documents\visual studio 2015\projects\mergesort\mergesort\mergesort.cpp : fatal error C1853: “Debug\MergeSort.pch”预编译头文件来自编译器的早期版本，或者预编译头为 C++ 而在 C 中使用它(或相反)
+c:\users\anonymity\documents\visual studio 2015\projects\mergesort\mergesort\mergesort.cpp(19): warning C4005: “INT_MAX”: 宏重定义
+  d:\program files\microsoft visual studio 14.0\vc\include\limits.h(35): note: 参见“INT_MAX”的前一个定义
+c:\users\anonymity\documents\visual studio 2015\projects\mergesort\mergesort\mergesort.cpp(21): warning C4005: “INT_MIN”: 宏重定义
+  d:\program files\microsoft visual studio 14.0\vc\include\limits.h(34): note: 参见“INT_MIN”的前一个定义
+  MergeSort.vcxproj -> C:\Users\Anonymity\Documents\Visual Studio 2015\Projects\MergeSort\Debug\MergeSort.exe
